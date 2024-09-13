@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UwUbuntu Studios | Home</title>
+
+    <link rel="shortcut icon" href="cdn/logo512.png" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        body {
+            background-color: rgb(20,20,20);
+            margin: 0;
+            text-align: center;
+        }
+
+        .logospin {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .logospin img {
+            width: 128px;
+            height: 128px;
+            transition: transform 0.6s;
+        }
+
+        .logospin:hover img {
+            transform: rotate(360deg) scale(1.2);
+        }
+
+        .infobar {
+            background-color: rgba(100, 100, 100, 0.2);
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 100px;
+        }
+
+        p, h1, h2, h3 {
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            margin-top: 0;
+            font-family: monospace;
+        }
+
+        p, button {
+            font-family: Nunito, sans-serif;
+        }
+
+        .infobuttons {
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .infobuttons button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.2em; 
+            cursor: pointer;
+            margin-left: 10px;
+            margin-right: 10px;
+            transition: background-color 0.3s, transform 0.3s; 
+        }
+
+        .infobuttons button:hover {
+            background-color: darkred; 
+            transform: scale(1.1); 
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-links li {
+            display: inline;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            font-family: Nunito, sans-serif;
+        }
+
+        .social-links img {
+            width: 32px;
+            height: 32px;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logospin">
+        <img src="cdn/logo512.png" alt="UwUbuntu Studios Logo">
+    </div>
+
+    <div class="infobar">
+        <h1>UwUbuntu Studios</h1>
+        <p>Welcome to UwUbuntu Studios, we are a game developing team for coding pirates gamejam. Bamsen & Jule is the funders back in 2021.<br>We created some "okay" games, if you want to play them the links are below!</p>
+
+        <div class="infobuttons">
+            <button onclick="location.href='https://www.roblox.com/games/7917271147/A-cross-the-border'">A cross the border (2021)</button>
+            <button onclick="location.href='https://scratch.mit.edu/projects/760632306/'">The Hole (2022)</button>
+            <button onclick="location.href='https://www.roblox.com/games/15324420796/Cycle-Puzzle-GameJam'">Cycle Puzzle (2023)</button>
+        </div>
+    </div>
+
+    <div class="infobar">
+        <h1>Upcoming jam 2-3 November</h1>
+        <p>The 2024 coding pirates game jam, is coming. We have planed to make a unity game. We hope we win, and dont make a bad game like the others xD.<br>Stick around to see when our game is finished!</p>
+    </div>
+
+    <div class="infobar">
+        <h1>Social links</h1>
+        <ul class="social-links">
+            <li><a href="https://github.com/UwUbuntuStudios"><img src="https://github.com/favicon.ico" alt="Github Logo"> Github</a></li>
+            <li><a href="https://gaupestudio.no/"><img src="" alt=""> Gaupe Studio</a></li>
+        </ul>
+    </div>
+</body>
+</html>
